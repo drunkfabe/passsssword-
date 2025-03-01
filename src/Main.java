@@ -40,10 +40,6 @@ public class Main {
         if (useNumbers) charPool.append(NUMBERS);
         if (useSymbols) charPool.append(SYMBOLS);
 
-        if (charPool.length() == 0) {
-            throw new IllegalArgumentException("At least one character type must be selected.");
-        }
-
         int passwordLength = random.nextInt(maxLength - minLength + 1) + minLength;
         StringBuilder password = new StringBuilder();
 
