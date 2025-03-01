@@ -17,13 +17,13 @@ public class Main {
         System.out.print("Enter maximum password length: ");
         int maxLength = scanner.nextInt();
 
-        System.out.print("Include lowercase letters? (yes/no): ");
+        System.out.print("Include lowercase letters?: ");
         boolean useLower = scanner.next().equalsIgnoreCase("yes");
-        System.out.print("Include uppercase letters? (yes/no): ");
+        System.out.print("Include uppercase letters?: ");
         boolean useUpper = scanner.next().equalsIgnoreCase("yes");
-        System.out.print("Include numbers? (yes/no): ");
+        System.out.print("Include numbers?: ");
         boolean useNumbers = scanner.next().equalsIgnoreCase("yes");
-        System.out.print("Include symbols? (yes/no): ");
+        System.out.print("Include symbols?: ");
         boolean useSymbols = scanner.next().equalsIgnoreCase("yes");
 
         //пароль
